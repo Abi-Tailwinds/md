@@ -1,0 +1,7 @@
+deployment:
+  image: ${image}
+  tag: ${tag}
+name: node-image
+service:
+  type: LoadBalancer
+  port: 3080
